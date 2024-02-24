@@ -1,5 +1,5 @@
 
-```
+
 # Random Number Generator using Audio and Video Input
 
 This Python project demonstrates how to generate pseudo-random numbers using data captured from the computer's audio and video inputs.
@@ -13,7 +13,7 @@ This Python project demonstrates how to generate pseudo-random numbers using dat
 You can install the dependencies using the following command:
 
 ```
-pip install -r requirements.txt
+pip install sounddevice numpy opencv-python
 ```
 
 ## Usage
@@ -46,4 +46,3 @@ This project captures audio data from the computer's microphone and video data f
 
 You can configure the range of the generated random numbers and the data type (integer, floating-point, double) in the `main.py` file.
 
-```
